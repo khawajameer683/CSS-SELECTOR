@@ -1,0 +1,46 @@
+/* unversal selector */
+/* *{
+    color:brown;
+}*/
+
+/* type selector */
+/* single  */
+
+/* span{
+ color:brown
+} */
+
+/* multiple */
+/* span,h1,h2{
+       color:brown
+} */
+
+/* class selector */
+/* .interest{
+    color:red;
+} */
+
+/* ID selector */
+/* #my-span{
+    color:brown;
+} */
+
+/* child selector */
+/* span > p{
+    color:brown
+} */
+
+/* Desendant selector */
+/* div p{
+    color:brown;
+} */
+
+/* Adjcen sibling selector */
+/* h1+p{
+    color:red;
+} */
+
+/* General sibling selector */
+h1~p{
+    color:red;
+}
